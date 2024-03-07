@@ -1,0 +1,4 @@
+chainlit==1.0.301
+langchain==0.1.11
+openai==1.13.3
+tiktoken==0.6.0
