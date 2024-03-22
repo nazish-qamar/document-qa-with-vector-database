@@ -1,5 +1,6 @@
 # A document Q&A app built with langchain. The app always respond with the list of sources.
-# The UI app is built with Chainlit and the OpenAI embedding and chat models are used for the demo. 
+### - The UI app is built with Chainlit
+### - OpenAI embedding and chat models are used for the demo. 
 #
 # Prerequisite:
 ### create ".env" file in the root directory with following key:
