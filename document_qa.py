@@ -36,6 +36,7 @@ def process_file(file: AskFileResponse):
         docs = text_splitter.split_documents(documents)
         for i, doc in enumerate(docs):
             doc.metadata["source"] = f"source_{i}"
+        print(docs[1:10])
         return docs
 
 def get_docsearch(file: AskFileResponse):
