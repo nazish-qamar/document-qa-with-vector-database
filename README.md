@@ -8,6 +8,8 @@
 #
 # To start the app run the following command in terminal: 
 ### chainlit run document_qa.py -w  
+# Note: Before running Q&A app, one could also run the chroma_db_basics.py file to get a feel of the the Chroma Vector by running the command:
+### chainlit run chroma_db_basics.py -w 
 #
 # Steps happening in the backend:
 ### 1. Creating chunks of the uploaded document.
