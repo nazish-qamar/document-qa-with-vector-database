@@ -14,5 +14,5 @@
 ### 2. Creating list of "Document" object with source as "metadata"
 ### 3. Creating embeddings of the "Document" object list using OpenAI Embedding model.
 ### 4. Creating Chroma vector database of embeddings
-### 5. User query from the chainlit becomes the user prompt to the OpenAI chat model. Please note that if you want the output in a specif format then give the example format after your query. For example one case ask question as:
-##### "Your question ### Your format ###"
+### 5. User query from the chainlit becomes the user prompt to the OpenAI chat model. Please note that if you want the output in a specific format then give the example format after your query. For example one case ask question as:
+#### "Your question ### Your format ###"
