@@ -1,4 +1,4 @@
-# A document Q&A app built with langchain. The app always respond with the list of sources.
+# A document Q&A app built with langchain that utilizes RetrievalQAWithSourcesChain chain to build RAG pattern-based chatbot for your custom document. The RetrievalQAWithSourcesChain ensures that the app responds with the list of sources.
 ### - The UI app is built with Chainlit
 ### - OpenAI embedding and chat models are used for the demo. 
 #
@@ -8,7 +8,7 @@
 #
 # To start the app run the following command in terminal: 
 ### chainlit run document_qa.py -w  
-# Note: Before running Q&A app, one could also run the chroma_db_basics.py file to get a feel of the the Chroma Vector by running the command:
+# Note: Before running Q&A app, one could also run the chroma_db_basics.py file to get a feel of the ChromaDB Vector by running the command:
 ### chainlit run chroma_db_basics.py -w 
 #
 # Steps happening in the backend:
